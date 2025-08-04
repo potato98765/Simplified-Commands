@@ -1,8 +1,6 @@
 # Description
 
-**Wanted to use minecraft commands in a simpler way? Now you can!**
-
-With this plugin minecraft commands became easier to use!
+In this plugin there are vanilla command plus some Quality Of Life features!
 
 **Currently Supported Commands**
 | Commands           | Support   |
