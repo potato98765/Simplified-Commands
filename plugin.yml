@@ -1,0 +1,11 @@
+name: SimplifiedCommands
+version: 1.0
+main: com.mrpotato.SimplifiedCommands
+api-version: 1.20.5
+commands:
+  size:
+    description: Set or reset player size
+    usage: /size <set|reset> <value?> <player?>
+  health:
+    description: Set or reset player health
+    usage: /health <set|reset> <value?> <player?>
