@@ -4,11 +4,13 @@
 
 **Disclaimer:** Not all plugin builds support every feature! For example, if a feature is added in Minecraft 1.21.6, it will not be available in plugin versions built for earlier Minecraft versions such as 1.21.1, So in simple terms no backporting.
 
+**The 1.1 update is currently only avalible to minecraft versions 1.20.5-1.21.1**
+
 **Current Features**
 | Features                 | Support         |
 |--------------------------|-----------------|
 | **Attributes**           |  🟧 **Partial** |
-| **Player Managemnet**    |  🟥 **None**    |
+| **Player Managemnet**    |  🟧 **Partial** |
 | **TP Utilities**         |  ✅ **Full**    |
 | **Simplified Gamerules** |  🟥 **None**    |
 
