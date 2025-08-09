@@ -32,3 +32,5 @@
 🟥 **Not Implemented**
 
 You can make a suggestion to add something [here](https://github.com/potato98765/Simplified-Commands/issues/new).
+
+__The GitHub Page might be out of sync from the plugin on modrinth because i dont always update the repo!__
