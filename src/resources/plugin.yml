@@ -1,11 +1,86 @@
 name: SimplifiedCommands
-version: 1.0
+version: 3.0-pre-release-1
 main: com.mrpotato.SimplifiedCommands
 api-version: 1.21.2
 commands:
   size:
     description: Set or reset player size
     usage: /size <set|reset> <value?> <player?>
+    permission: simplifiedcommands.size
+    
   health:
     description: Set or reset player health
     usage: /health <set|reset> <value?> <player?>
+    permission: simplifiedcommands.health
+    
+  tphere:
+    description: Teleport another player to you
+    usage: /tphere <player>
+    permission: simplifiedcommands.tphere
+    
+  tpall:
+    description: Teleport all players to your location
+    usage: /tpall
+    permission: simplifiedcommands.tpall
+    
+  speed:
+    description: Set player walk or fly speed
+    usage: /speed <walk|fly> <value> [player]
+    permission: simplifiedcommands.speed
+    
+  heal:
+    description: Heal a player
+    usage: /heal [player]
+    permission: simplifiedcommands.heal
+    
+  god:
+    description: Toggle invulnerability
+    usage: /god <on|off> [player]
+    permission: simplifiedcommands.god
+    
+  #rule:
+    #description: Set gamerules [Deprecated]
+    #usage: /rule <gamerule> <on|off> [world]
+    #permission: simplifiedcommands.rule
+    
+  scgui:
+    description: Opens the SimplifiedCommands GUI
+    usage: /scgui
+    permission: simplifiedcommands.scgui
+permissions:
+  simplifiedcommands.size:
+    description: Allows setting or resetting player size
+    default: op
+
+  simplifiedcommands.health:
+    description: Allows setting or resetting player health
+    default: op
+
+  simplifiedcommands.tphere:
+    description: Allows teleporting another player to you
+    default: op
+
+  simplifiedcommands.tpall:
+    description: Allows teleporting all players to you
+    default: op
+    
+  simplifiedcommands.speed:
+    description: Allows changeing your speed
+    default: op
+    
+  simplifiedcommands.heal:
+    description: Allows to heal to max health
+    default: op
+    
+  simplifiedcommands.god:
+    description: Allows to be invincible
+    default: op
+    
+  #simplifiedcommands.rule:
+    #description: Set gamerules
+    #default: op
+    
+  simplifiedcommands.scgui:
+    description: Use the GUI
+    default: op
+  
