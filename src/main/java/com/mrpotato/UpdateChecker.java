@@ -69,7 +69,7 @@ public class UpdateChecker implements Listener {
 
         String currentVersion = plugin.getDescription().getVersion();
         
-        //if (currentVersion.toLowerCase().contains("dev") || currentVersion.toLowerCase().contains("pre")) return;
+        if (currentVersion.toLowerCase().contains("dev") || currentVersion.toLowerCase().contains("pre-release")) return;
         
         if (!currentVersion.equals(latestVersion)) {
             player.sendMessage("§e[SimplifiedCommands] A new version is available for your server version: §b" + latestVersion +

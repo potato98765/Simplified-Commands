@@ -1,5 +1,5 @@
 name: SimplifiedCommands
-version: 2.1-dev2
+version: 3.0-pre-release-1
 main: com.mrpotato.SimplifiedCommands
 api-version: 1.20.5
 commands:
@@ -38,10 +38,10 @@ commands:
     usage: /god <on|off> [player]
     permission: simplifiedcommands.god
     
-  rule:
-    description: Set gamerules [Deprecated]
-    usage: /rule <gamerule> <on|off> [world]
-    permission: simplifiedcommands.rule
+  #rule:
+    #description: Set gamerules [Deprecated]
+    #usage: /rule <gamerule> <on|off> [world]
+    #permission: simplifiedcommands.rule
     
   scgui:
     description: Opens the SimplifiedCommands GUI
@@ -76,9 +76,9 @@ permissions:
     description: Allows to be invincible
     default: op
     
-  simplifiedcommands.rule:
-    description: Set gamerules
-    default: op
+  #simplifiedcommands.rule:
+    #description: Set gamerules
+    #default: op
     
   simplifiedcommands.scgui:
     description: Use the GUI

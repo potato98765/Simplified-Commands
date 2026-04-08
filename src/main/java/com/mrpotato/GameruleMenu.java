@@ -16,10 +16,10 @@ public class GameruleMenu {
 
     private final SimplifiedCommands plugin;
     private final List<String> booleanRules = Arrays.asList(
-            "doDaylightCycle", "doMobSpawning", "keepInventory", "doFireTick", "doWeatherCycle"
+            "announceAdvancements", "blockExplosionDropDecay", "commandBlockOutput", "disableElytraMovementCheck", "disablePlayerMovementCheck", "disableRaids", "doDaylightCycle", "doEntityDrops", "doFireTick", "doImmediateRespawn", "doInsomnia", "doLimitedCrafting", "doMobLoot", "doMobSpawning", "doPatrolSpawning", "doTileDrops", "doTraderSpawning", "doVinesSpread", "doWardenSpawning", "doWeatherCycle", "drowningDamage", "enderPearlsVanishOnDeath", "fallDamage", "fireDamage", "forgiveDeadPlayers", "freezeDamage", "globalSoundEvents", "keepInventory", "lavaSourceConversion", "logAdminCommands", "mobExplosionDropDecay", "mobGriefing", "naturalRegeneration", "reducedDebugInfo", "sendCommandFeedback", "showDeathMessages", "spectatorsGenerateChunks", "tntExplodes", "tntExplosionDropDecay", "universalAnger", "waterSourceConversion"
     );
     private final List<String> numericRules = Arrays.asList(
-            "randomTickSpeed", "maxEntityCramming"
+            //""
     );
 
     private final Map<UUID, String> awaitingInput = new HashMap<>();
@@ -43,7 +43,6 @@ public class GameruleMenu {
             ItemMeta meta = item.getItemMeta();
             meta.setDisplayName(ChatColor.AQUA + rule);
             meta.setLore(Arrays.asList(
-                    ChatColor.GRAY + "Vanilla Name: " + rule,
                     ChatColor.YELLOW + "Current Value: " + value
             ));
             item.setItemMeta(meta);
@@ -59,7 +58,6 @@ public class GameruleMenu {
             ItemMeta meta = item.getItemMeta();
             meta.setDisplayName(ChatColor.AQUA + rule);
             meta.setLore(Arrays.asList(
-                    ChatColor.GRAY + "Vanilla Name: " + rule,
                     ChatColor.YELLOW + "Current Value: " + value,
                     ChatColor.GOLD + "Click to enter a new number"
             ));

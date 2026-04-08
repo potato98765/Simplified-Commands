@@ -28,7 +28,7 @@ public class SimplifiedCommands extends JavaPlugin {
         getCommand("speed").setExecutor(new SpeedCommand());
         getCommand("heal").setExecutor(new HealCommand());
         getCommand("god").setExecutor(new GodCommand());
-        getCommand("rule").setExecutor(ruleCmd);
+        //getCommand("rule").setExecutor(ruleCmd);
 
         CommandAutoCompleter completer = new CommandAutoCompleter();
         getCommand("size").setTabCompleter(completer);
@@ -36,7 +36,7 @@ public class SimplifiedCommands extends JavaPlugin {
         getCommand("speed").setTabCompleter(completer);
         getCommand("heal").setTabCompleter(completer);
         getCommand("god").setTabCompleter(completer);
-        getCommand("rule").setTabCompleter(ruleCmd);
+        //getCommand("rule").setTabCompleter(ruleCmd);
         
         new UpdateChecker(this);
         
